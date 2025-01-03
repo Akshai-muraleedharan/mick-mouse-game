@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Vinyl&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container_page_one{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #8794d7;
+}
+
+.page_one_head{
+    display: flex;
+    gap: 10px;
+    gap: 10px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd67a;
+}
+
+.page_one_subheading{
+    margin: 20px 0px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffd67a;
+}
+
+.start_button{
+    padding: 0px 16px;
+    height: 53px;
+    min-width: 150px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbc00;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+/* second page */
+.second_page_container{
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.war_room_top{
+    padding: 20px;
+   
+}
+
+
+.war_room_bottom{
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
+
