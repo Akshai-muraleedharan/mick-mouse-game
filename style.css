@@ -7,6 +7,7 @@
 }
 
 
+
 .container_page_one{
     display: flex;
     min-height: 100vh;
@@ -56,10 +57,11 @@
 /* second page */
 .second_page_container{
     background-color: #fff;
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: auto 0px;
 }
 
 
