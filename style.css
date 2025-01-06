@@ -76,6 +76,41 @@
 
 }
 
+.bomb_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+   
+}
+
+
+.bomber_div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #000;
+    animation: movedown 5s infinite ease-out;
+}
+
+@keyframes movedown {
+    0%{
+        transform: translateY(0vh);
+    }
+
+    50%{
+        transform: translateY(50vh);
+    }
+    100%{
+        transform: translateY(90vh);
+    }
+}
+
+
+.remove_bomb{
+    visibility: hidden;
+}
+
 
 
 
